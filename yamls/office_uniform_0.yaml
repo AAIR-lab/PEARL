@@ -1,0 +1,46 @@
+--domain: office
+--partitioning: "uniform"
+--epsilon_min: 0.05
+--alpha: 0.05
+--gamma: 0.99
+--lamda: 0.1
+--episode_max: 5000
+--step_max: 400
+--decay: 0.9989
+--bootstrap: 'from_estimated_concrete'
+--init_action_abs_level: 0
+--init_state_abs_level: 1
+--k_cap: 5
+--k_cap_actions: 5
+--allowed_diff_to_refine: 0.001
+--abs_interval: 100
+--eval_episodes: 100
+--maximum_state_variables_to_split: 4
+--max_clusters: 4
+--min_samples: 2
+--kernel: "linear"
+--map_name: "office.cfg"
+# --interactive: False
+--start_pos: "(0.05, 0.05)"
+--coffee_pos: "(0.1, 0.8)"
+--mail_pos: "(0.54, 0.55)"
+--target_pos: "(0.95, 0.95)"
+# --plot_abstractions: True
+
+
+ # td-error to v
+--init_beta: 1.0
+--decay_beta_amount: 0.02 #becomes 0 in 5000 episodes
+# --decay_beta_amount: 0.05 #becomes 0 in 2000 episodes
+# --decay_beta_amount: 0.01 #becomes 0 in 10,000 episodes
+--min_beta: 0.15
+
+#  # td-error
+# --init_beta: 1.0
+# --decay_beta_amount: 0.0
+# --min_beta: 1.0
+
+#  # v
+# --init_beta: 0.0
+# --decay_beta_amount: 0.0
+# --min_beta: 0.0

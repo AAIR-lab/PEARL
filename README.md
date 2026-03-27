@@ -17,7 +17,7 @@ PEARL (Parameterized Extended State/Action Abstractions for RL) addresses sequen
 ## Project Structure
 
 ```
-CASAT/
+PEARL/
 ├── main.py                          # Main entry point
 ├── run_pearl.sh                     # Shell script for running experiments
 ├── requirements.txt                 # Python dependencies
